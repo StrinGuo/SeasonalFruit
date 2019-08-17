@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>时令果惠</title>
+    <!--    清除样式CSS-->
+    <link rel='stylesheet' href='../../css/style.css' type='text/css'/>
+    <!--    外部模板样式-->
+    <link rel='stylesheet' href='../../css/global.css' type='text/css'/>
+    <link rel="stylesheet" href="../css/main.css" type="text/css"/>
+</head>
+<body>
+<div class="wrap">
+    <!--    顶部所有信息，注意所有class别与顶部信息重叠-->
+    <div class="header">
+        <div class="login_bar">
+            <ul>
+                <li>
+                    <img src="../../img/common/login_icon.jpg"><a
+                        class="top_head_a">请登录</a>
+                </li>
+                <li>
+                    <img src="../../img/common/register_icon.jpg"><a
+                        class="top_head_a">免费注册</a>
+                </li>
+                <li>
+                    <img src="../../img/common/order_icon.jpg"><a
+                        class="top_head_a">我的订单</a>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <div class="header_main">
+            <form action="" class="parent">
+                <input type="text" class="search" placeholder="搜索">
+                <input type="button" name="" id="" class="search_button">
+            </form>
+            <a href="#"><img src="../../img/s_03.png" id="logo"></a>
+            <div class="header_nav">
+                <ul>
+                    <li><a title="首 页" onmouseout="check(this)" onmouseover="check(this)">HOME</a></li>
+                    <li><a title="闪购促销" onmouseout="check(this)" onmouseover="check(this)">SALES</a>
+                    </li>
+                    <li><a title="最新活动" onmouseout="check(this)" onmouseover="check(this)">ACTIVITY</a>
+                    </li>
+                    <li><a title="申请试吃" onmouseout="check(this)" onmouseover="check(this)">TASTE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr id="header_hr">
+    </div>
+    <div class="main">
+        <!--        次级导航同上注意-->
+        <div class="main_nav">
+            <ul>
+                <li id="main_nav_goods_nav" style="width: 200px;height: 40px;margin-left: 15%;"><a href="#">全部商品分类 ❤</a>
+                </li>
+                <li class="main_nav_li"><a href="#">首页</a></li>
+                <li class="main_nav_li" style="width: 200px;"><a href="#">闪购促销</a>
+                </li>
+                <li class="main_nav_li" style="width: 130px;"><a href="#">最新活动</a>
+                </li>
+                <li class="main_nav_li" style="width: 150px;"><a href="#">申请试吃</a>
+                </li>
+            </ul>
+        </div>
+        <div id="main_sub_nav" style="display: none">
+            <ul class="cat">
+                <li>
+                    <span class="ct_in" style="background-position: 0px 0px;"></span>
+                    <span class="ct_tit">专利分格</span>
+                    <span class="ct_yb">></span>
+                    <div class="ct_dv"></div>
+                </li>
+                <li>
+                    <span class="ct_in" style="background-position: 0px -29px;"></span>
+                    <span class="ct_tit">彩虹果杯</span>
+                    <span class="ct_yb">></span>
+                    <div class="ct_dv"></div>
+                </li>
+                <li>
+                    <span class="ct_in" style="background-position: 0px -58px;"></span>
+                    <span class="ct_tit">进口水果</span>
+                    <span class="ct_yb">></span>
+                    <div class="ct_dv"></div>
+                </li>
+                <li>
+                    <span class="ct_in" style="background-position: 0px -87px;"></span>
+                    <span class="ct_tit">国产水果</span>
+                    <span class="ct_yb">></span>
+                    <div class="ct_dv"></div>
+                </li>
+                <li>
+                    <span class="ct_in" style="background-position: 0px -116px;"></span>
+                    <span class="ct_tit">特别定制</span>
+                    <span class="ct_yb">></span>
+                    <div class="ct_dv"></div>
+                </li>
+                <li>
+                    <span class="ct_in" style="background-position: 0px -145px;"></span>
+                    <span class="ct_tit">创意果切</span>
+                    <span class="ct_yb">></span>
+                    <div class="ct_dv"></div>
+                </li>
+
+                <li>
+                    <span class="ct_in" style="background-position: 0px -174px;"></span>
+                    <span class="ct_tit">中秋月饼</span>
+                    <span class="ct_yb">></span>
+                    <div class="ct_dv"></div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="slide_show">
+            <img id="img1" src="../../img/img1.jpg" style="display: none"/>
+            <img id="img2" src="../../img/img2.jpg" style="display: none"/>
+            <img id="img3" src="../../img/img3.jpg" style="display: none"/>
+            <img id="img4" src="../../img/img4.jpg" style="display: block"/>
+        </div>
+        <div class="img_show">
+            <img src="../../img/index_ad.jpg"/>
+            <div>
+                <img style="width:25%;;" src="../../img/index_ad1.jpg"/>
+                <img style="width:25%;margin-left: 10px;" src="../../img/index_ad2.jpg"/>
+                <img style="width:25%;margin-left: 10px;" src="../../img/index_ad3.jpg"/>
+            </div>
+        </div>
+        <div class="goods_show">
+            <div class="goods_show_nav">
+                <img src="../../img/icon_goods_1.png" class="goods_show_nav_img1"></img>
+                <span class="goods_show_nav_img2">》专利分格</span>
+                <ul class="goods_show_nav_ul">
+                    <li class="goods_show_nav_ul_li"><a href="#">专利分格</a></li>
+                    <li>|</li>
+                    <li class="goods_show_nav_ul_li"><a href="#">超级果盒</a></li>
+                    <li>|</li>
+                    <li class="goods_show_nav_ul_li"><a href="#">三分果盒</a></li>
+                    <li>|</li>
+                    <li class="goods_show_nav_ul_li"><a href="#">二分果盒</a></li>
+                </ul>
+            </div>
+            <div class="goods_show_frame">
+                <div class="main_left">
+                    <img class="main_left_img" src="../../img/recommend_img1.jpg"/>
+                    <div class="main_left_div">
+                        <button class="main_left_div_button">立即查看</button>
+                    </div>
+                </div>
+
+                <div class="main_right">
+                    <a class="goods">
+                        <img src="../../img/5e562f13488e40008a3ab848c2318d62.jpg"/>
+                        <span class="goods_info">三分果盒:古北</span>
+                        <span class="goods_price">￥14.00</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="goods_show">
+            <div class="goods_show_nav">
+                <img src="../../img/icon_goods_1.png" class="goods_show_nav_img1"></img>
+                <span class="goods_show_nav_img2">》专利分格</span>
+                <ul class="goods_show_nav_ul">
+                    <li class="goods_show_nav_ul_li"><a href="#">专利分格</a></li>
+                    <li>|</li>
+                    <li class="goods_show_nav_ul_li"><a href="#">超级果盒</a></li>
+                    <li>|</li>
+                    <li class="goods_show_nav_ul_li"><a href="#">三分果盒</a></li>
+                    <li>|</li>
+                    <li class="goods_show_nav_ul_li"><a href="#">二分果盒</a></li>
+                </ul>
+            </div>
+            <div class="goods_show_frame">
+                <div class="main_left">
+                    <img class="main_left_img" src="../../img/recommend_img1.jpg"/>
+                    <div class="main_left_div">
+                        <button class="main_left_div_button">立即查看</button>
+                    </div>
+                </div>
+
+                <div class="main_right">
+                    <a class="goods">
+                        <img src="../../img/5e562f13488e40008a3ab848c2318d62.jpg"/>
+                        <span class="goods_info">三分果盒:古北</span>
+                        <span class="goods_price">￥14.00</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="goods_show">
+            <div class="goods_show_nav">
+                <img src="../../img/icon_goods_1.png" class="goods_show_nav_img1"></img>
+                <span class="goods_show_nav_img2">》专利分格</span>
+                <ul class="goods_show_nav_ul">
+                    <li class="goods_show_nav_ul_li"><a href="#">专利分格</a></li>
+                    <li>|</li>
+                    <li class="goods_show_nav_ul_li"><a href="#">超级果盒</a></li>
+                    <li>|</li>
+                    <li class="goods_show_nav_ul_li"><a href="#">三分果盒</a></li>
+                    <li>|</li>
+                    <li class="goods_show_nav_ul_li"><a href="#">二分果盒</a></li>
+                </ul>
+            </div>
+            <div class="goods_show_frame">
+                <div class="main_left">
+                    <img class="main_left_img" src="../../img/recommend_img1.jpg"/>
+                    <div class="main_left_div">
+                        <button class="main_left_div_button">立即查看</button>
+                    </div>
+                </div>
+
+                <div class="main_right">
+                    <a class="goods">
+                        <img src="../../img/5e562f13488e40008a3ab848c2318d62.jpg"/>
+                        <span class="goods_info">三分果盒:古北</span>
+                        <span class="goods_price">￥14.00</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="goods_show">
+            <div class="goods_show_nav">
+                <img src="../../img/icon_goods_1.png" class="goods_show_nav_img1"></img>
+                <span class="goods_show_nav_img2">》专利分格</span>
+                <ul class="goods_show_nav_ul">
+                    <li class="goods_show_nav_ul_li"><a href="#">专利分格</a></li>
+                    <li>|</li>
+                    <li class="goods_show_nav_ul_li"><a href="#">超级果盒</a></li>
+                    <li>|</li>
+                    <li class="goods_show_nav_ul_li"><a href="#">三分果盒</a></li>
+                    <li>|</li>
+                    <li class="goods_show_nav_ul_li"><a href="#">二分果盒</a></li>
+                </ul>
+            </div>
+            <div class="goods_show_frame">
+                <div class="main_left">
+                    <img class="main_left_img" src="../../img/recommend_img1.jpg"/>
+                    <div class="main_left_div">
+                        <button class="main_left_div_button">立即查看</button>
+                    </div>
+                </div>
+
+                <div class="main_right">
+                    <a class="goods">
+                        <img src="../../img/5e562f13488e40008a3ab848c2318d62.jpg"/>
+                        <span class="goods_info">三分果盒:古北</span>
+                        <span class="goods_price">￥14.00</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="goods_show">
+            <div class="goods_show_nav">
+                <img src="../../img/icon_goods_1.png" class="goods_show_nav_img1"></img>
+                <span class="goods_show_nav_img2">》专利分格</span>
+                <ul class="goods_show_nav_ul">
+                    <li class="goods_show_nav_ul_li"><a href="#">专利分格</a></li>
+                    <li>|</li>
+                    <li class="goods_show_nav_ul_li"><a href="#">超级果盒</a></li>
+                    <li>|</li>
+                    <li class="goods_show_nav_ul_li"><a href="#">三分果盒</a></li>
+                    <li>|</li>
+                    <li class="goods_show_nav_ul_li"><a href="#">二分果盒</a></li>
+                </ul>
+            </div>
+            <div class="goods_show_frame">
+                <div class="main_left">
+                    <img class="main_left_img" src="../../img/recommend_img1.jpg"/>
+                    <div class="main_left_div">
+                        <button class="main_left_div_button">立即查看</button>
+                    </div>
+                </div>
+
+                <div class="main_right">
+                    <a class="goods">
+                        <img src="../../img/5e562f13488e40008a3ab848c2318d62.jpg"/>
+                        <span class="goods_info">三分果盒:古北</span>
+                        <span class="goods_price">￥14.00</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+<script src="../../jquery/jquery-3.4.1.js"></script>
+<script src="../../js/global.js"></script>
+<script src="../js/main.js"></script>
+<script>
+
+</script>
+</html>

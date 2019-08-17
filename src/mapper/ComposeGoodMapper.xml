@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.ComposeGoodMapper">
+    <resultMap id="com" type="pojo.ComposeGood">
+        <!-- 配置1对1的关系  select查询 workCard这个对象的值来自于一个查询-->
+        <!--<association property="workCard" column="id" select="day.day22.mapper.WorkCardMapper.findWorkCardByEmpId"></association>-->
+        <!--<collection property="taskList" column="id"  select="day.day22.mapper.EmployeeTaskMapper.findEmpTaskByEmpId" fetchType="eager"></collection>-->
+    </resultMap>
+
+    <select id="findComposeGoodByComposeGood" resultMap="com">
+        select *
+        from compose_good
+        <where>
+            <choose>
+                <when test="composeGoodName!=null and composeGoodName!=''">
+                    <bind name="composeGoodName_pattern" value="'%'+composeGoodName+'%'"></bind>
+                    and compose_good_name like #{composeGoodName_pattern}
+                </when>
+                <when test="composeGoodType!=null and composeGoodType!=''">
+                    and compose_good_type=#{composeGoodType}
+                </when>
+                <when test="composeGoodStatus==1 or composeGoodStatus==0">
+                    and compose_good_type=#{composeGoodStatus}
+                </when>
+                <otherwise>
+                    and id is not null
+                </otherwise>
+            </choose>
+        </where>
+
+    </select>
+</mapper>

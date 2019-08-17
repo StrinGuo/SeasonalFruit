@@ -1,7 +1,6 @@
 .wrap {
     margin-top: auto;
     width: 100%;
-    height: 5000px;
 }
 
 .header {
@@ -13,7 +12,13 @@
     background-color: #FFFFFF;
     z-index: 100;
 }
-
+.login_bar a{
+    text-decoration: none;
+    color: #000000;
+}
+.login_bar a:hover{
+    color:coral ;
+}
 .login_bar {
     width: 500px;
     height: 25px;

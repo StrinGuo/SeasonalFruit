@@ -214,3 +214,12 @@
     opacity: 1;
     transform: translateY(5px);
 }
+.footer{
+    width: 100%;
+    margin-top: 150px;
+    position: relative;
+}
+.footer img{
+    width: 100%;
+    position: relative;
+}

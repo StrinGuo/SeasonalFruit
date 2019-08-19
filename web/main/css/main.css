@@ -76,15 +76,6 @@
     background-color: white;
 }
 
-.goods_show_nav_ul_li:hover {
-    background-color: #e51e13;
-}
-
-.goods_show_nav_ul li:hover a {
-    color: white;
-    height: 38px;
-}
-
 .goods_show_nav_ul a {
     text-decoration: none;
     color: #666;

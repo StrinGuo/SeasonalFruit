@@ -1,10 +1,10 @@
 $(function () {
+    // showAD();
     setInterval("showAD()", 4000);
 });
 var t = 1;
 
 function showAD() {
-
     if (t == 1) {
         $("#img4").hide();
         $("#img1").show();

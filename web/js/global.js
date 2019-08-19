@@ -1,5 +1,10 @@
-function check(obj) {
-    var temp = obj.innerText;
-    obj.innerText = obj.title;
-    obj.title = temp;
-}
+$(".header_nav a").hover(function () {
+    var temp = $(this).attr("abj");
+    $(this).attr("abj", $(this).html());
+    $(this).html(temp);
+
+},function () {
+    var temp = $(this).attr("abj");
+    $(this).attr("abj", $(this).html());
+    $(this).html(temp);
+});

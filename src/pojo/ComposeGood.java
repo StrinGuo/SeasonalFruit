@@ -6,10 +6,10 @@ import java.util.Date;
 public class ComposeGood {
     private Long id;
 
-    private String composeGoodId;
     private String composeGoodName;
+    private Integer composeGoodPrice;
     private String composeGoodDescribe;
-    private String composeGoodType;
+    private Integer composeGoodType;
     private Integer composeGoodStatus;
     private String composeGoodIcon;
     private Integer composeGoodWeight;
@@ -25,20 +25,20 @@ public class ComposeGood {
         this.id = id;
     }
 
-    public String getComposeGoodId() {
-        return composeGoodId;
-    }
-
-    public void setComposeGoodId(String composeGoodId) {
-        this.composeGoodId = composeGoodId;
-    }
-
     public String getComposeGoodName() {
         return composeGoodName;
     }
 
     public void setComposeGoodName(String composeGoodName) {
         this.composeGoodName = composeGoodName;
+    }
+
+    public Integer getComposeGoodPrice() {
+        return composeGoodPrice;
+    }
+
+    public void setComposeGoodPrice(Integer composeGoodPrice) {
+        this.composeGoodPrice = composeGoodPrice;
     }
 
     public String getComposeGoodDescribe() {
@@ -49,11 +49,11 @@ public class ComposeGood {
         this.composeGoodDescribe = composeGoodDescribe;
     }
 
-    public String getComposeGoodType() {
+    public Integer getComposeGoodType() {
         return composeGoodType;
     }
 
-    public void setComposeGoodType(String composeGoodType) {
+    public void setComposeGoodType(Integer composeGoodType) {
         this.composeGoodType = composeGoodType;
     }
 
@@ -97,14 +97,14 @@ public class ComposeGood {
         this.updateTime = updateTime;
     }
 
-    @Override
-    public String toString() {
+    @java.lang.Override
+    public java.lang.String toString() {
         return "ComposeGood{" +
                 "id=" + id +
-                ", composeGoodId='" + composeGoodId + '\'' +
                 ", composeGoodName='" + composeGoodName + '\'' +
+                ", composeGoodPrice=" + composeGoodPrice +
                 ", composeGoodDescribe='" + composeGoodDescribe + '\'' +
-                ", composeGoodType='" + composeGoodType + '\'' +
+                ", composeGoodType=" + composeGoodType +
                 ", composeGoodStatus=" + composeGoodStatus +
                 ", composeGoodIcon='" + composeGoodIcon + '\'' +
                 ", composeGoodWeight=" + composeGoodWeight +

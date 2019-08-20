@@ -14,7 +14,7 @@
         <where>
             <choose>
                 <when test="goodName!=null and goodName!=''">
-                <bind name="goodName_pattern" value="'%'+goodName+'%'"></bind>
+                    <bind name="goodName_pattern" value="'%'+goodName+'%'"></bind>
                     and good_name like #{goodName_pattern}
                 </when>
                 <when test="rn!=null and rn!=''">
@@ -26,6 +26,5 @@
 
             </choose>
         </where>
-
     </select>
 </mapper>

@@ -34,6 +34,7 @@
         <mapper resource="mapper/GoodMapper.xml"/>
         <mapper resource="mapper/ComposeGoodMapper.xml"/>
         <mapper resource="mapper/GeneralitiesMapper.xml"/>
+        <mapper resource="mapper/ClassifyMapper.xml"/>
         <!--<package name="mapper"/>-->
     </mappers>
 </configuration>

@@ -14,8 +14,8 @@ public class ComposeGood {
     private String composeGoodIcon;
     private Integer composeGoodWeight;
 
-    private Date createTime;
-    private Date updateTime;
+//    private Date createTime;
+//    private Date updateTime;
 
     public Long getId() {
         return id;
@@ -81,35 +81,32 @@ public class ComposeGood {
         this.composeGoodWeight = composeGoodWeight;
     }
 
-    public Date getCreateTime() {
-        return createTime;
-    }
+//    public Date getCreateTime() {
+//        return createTime;
+//    }
+//
+//    public void setCreateTime(Date createTime) {
+//        this.createTime = createTime;
+//    }
+//
+//    public Date getUpdateTime() {
+//        return updateTime;
+//    }
+//
+//    public void setUpdateTime(Date updateTime) {
+//        this.updateTime = updateTime;
+//    }
 
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
-    }
-
-    public Date getUpdateTime() {
-        return updateTime;
-    }
-
-    public void setUpdateTime(Date updateTime) {
-        this.updateTime = updateTime;
-    }
-
-    @java.lang.Override
-    public java.lang.String toString() {
+    @Override
+    public String toString() {
         return "ComposeGood{" +
-                "id=" + id +
-                ", composeGoodName='" + composeGoodName + '\'' +
+                " composeGoodName='" + composeGoodName + '\'' +
                 ", composeGoodPrice=" + composeGoodPrice +
                 ", composeGoodDescribe='" + composeGoodDescribe + '\'' +
                 ", composeGoodType=" + composeGoodType +
                 ", composeGoodStatus=" + composeGoodStatus +
                 ", composeGoodIcon='" + composeGoodIcon + '\'' +
                 ", composeGoodWeight=" + composeGoodWeight +
-                ", createTime=" + createTime +
-                ", updateTime=" + updateTime +
                 '}';
     }
 }

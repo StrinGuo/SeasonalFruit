@@ -2,14 +2,16 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="mapper.GeneralitiesMapper">
-    <resultMap id="pg" type="pojo.Generalities">
+<mapper namespace="mapper.ClassifyMapper">
+    <resultMap id="pc" type="pojo.Classify">
         <!-- 配置1对1的关系  select查询 workCard这个对象的值来自于一个查询-->
         <!--<association property="workCard" column="id" select="day.day22.mapper.WorkCardMapper.findWorkCardByEmpId"></association>-->
         <!--<collection property="taskList" column="id"  select="day.day22.mapper.EmployeeTaskMapper.findEmpTaskByEmpId" fetchType="eager"></collection>-->
-        <collection property="classify" column="id" select="mapper.ClassifyMapper.findAllByGeneralitiesId"></collection>
+        <collection property="composeGood" column="id" select="mapper.ComposeGoodMapper.findAllComposeGoodByClassifyId"></collection>
+
     </resultMap>
-    <select id="findAllGeneralities" resultMap="pg">
-          select * from generalities
+    <select id="findAllByGeneralitiesId" resultMap="pc">
+        select * from classify where generalities_id = #{generalitiesId}
     </select>
+
 </mapper>

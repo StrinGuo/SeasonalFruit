@@ -51,18 +51,7 @@
       {
         "generalitiesId": 1,
         "id": 0,
-        "composeGood": [
-          {
-            "composeGoodType": 2,
-            "composeGoodDescribe": "",
-            "composeGoodPrice": 25,
-            "composeGoodWeight": 300,
-            "composeGoodIcon": "../../img/goods/5.jpg",
-            "composeGoodStatus": 1,
-            "id": 7,
-            "composeGoodName": "三分果盒:超级爆炸"
-          }
-        ],
+        "composeGood": [],
         "classifyName": "超级果盒"
       },
       {

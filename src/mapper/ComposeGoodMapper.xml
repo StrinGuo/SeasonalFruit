@@ -31,4 +31,8 @@
         </where>
 
     </select>
+
+    <select id="findAllComposeGoodByClassifyId" resultMap="pcg">
+        select * from compose_good where compose_good_type = #{classifyId}
+    </select>
 </mapper>

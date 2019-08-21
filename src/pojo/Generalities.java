@@ -1,6 +1,7 @@
 package pojo;
 
 import java.util.Date;
+import java.util.List;
 
 public class Generalities {
     private Long id;
@@ -9,10 +10,10 @@ public class Generalities {
     private String generalitiesImg;
     private String generalitiesIcon;
 
-    private Date createTime;
-    private Date updateTime;
+    private List<Classify> classify;
 
-
+//    private Date createTime;
+//    private Date updateTime;
 
     public Long getId() {
         return id;
@@ -46,30 +47,37 @@ public class Generalities {
         this.generalitiesIcon = generalitiesIcon;
     }
 
-    public Date getCreateTime() {
-        return createTime;
+    public List<Classify> getClassify() {
+        return classify;
     }
 
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
+    public void setClassify(List<Classify> classify) {
+        this.classify = classify;
     }
 
-    public Date getUpdateTime() {
-        return updateTime;
-    }
+//    public Date getCreateTime() {
+//        return createTime;
+//    }
+//
+//    public void setCreateTime(Date createTime) {
+//        this.createTime = createTime;
+//    }
+//
+//    public Date getUpdateTime() {
+//        return updateTime;
+//    }
+//
+//    public void setUpdateTime(Date updateTime) {
+//        this.updateTime = updateTime;
+//    }
 
-    public void setUpdateTime(Date updateTime) {
-        this.updateTime = updateTime;
-    }
     @Override
     public String toString() {
         return "Generalities{" +
-                "id=" + id +
-                ", generalitiesName='" + generalitiesName + '\'' +
+                " generalitiesName='" + generalitiesName + '\'' +
                 ", generalitiesImg='" + generalitiesImg + '\'' +
                 ", generalitiesIcon='" + generalitiesIcon + '\'' +
-                ", createTime=" + createTime +
-                ", updateTime=" + updateTime +
+                ", classify=" + classify +
                 '}';
     }
 }

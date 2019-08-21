@@ -10,4 +10,11 @@ public interface ComposeGoodMapper {
      * @return 所有符合查询结果数据
      */
     List<ComposeGood> findComposeGoodByComposeGood(ComposeGood composeGood);
+
+    /**
+     * 根据小分类id查询所有符合的商品
+     * @param classifyId 小分类id
+     * @return 商品列表
+     */
+    List<ComposeGood> findAllComposeGoodByClassifyId(Long classifyId);
 }

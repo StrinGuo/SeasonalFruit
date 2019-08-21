@@ -1,7 +1,7 @@
 
-import mapper.ComposeGoodMapper;
+import mapper.GeneralitiesMapper;
 import org.apache.ibatis.session.SqlSession;
-import pojo.ComposeGood;
+import pojo.Generalities;
 
 import java.util.List;
 
@@ -10,12 +10,17 @@ public class Main {
         SqlSession sqlSession = null;
         try {
             sqlSession = SqlSessionFactoryUtil.getSqlSession();
-            ComposeGoodMapper composeGoodMapper = sqlSession.getMapper(ComposeGoodMapper.class);
-            ComposeGood composeGood = new ComposeGood();
-            composeGood.setComposeGoodName("A");
-            composeGood.setComposeGoodStatus(1);
-            List<ComposeGood> composeGoodList = composeGoodMapper.findComposeGoodByComposeGood(composeGood);
-            composeGoodList.forEach(System.out::println);
+            GeneralitiesMapper generalitiesMapper = sqlSession.getMapper(GeneralitiesMapper.class);
+//            ComposeGood composeGood = new ComposeGood();
+//            composeGood.setComposeGoodName("A");
+//            composeGood.setComposeGoodStatus(1);
+//            List<ComposeGood> composeGoodList = composeGoodMapper.findComposeGoodByComposeGood(composeGood);
+//            composeGoodList.forEach(System.out::println);
+
+            Generalities generalities = new Generalities();
+            List<Generalities> generalitiesList = generalitiesMapper.findAllGeneralities();
+            generalitiesList.forEach(System.out::println);
+
         } catch (Exception e) {
             e.printStackTrace();
         } finally {

@@ -33,6 +33,7 @@
     <mappers>
         <mapper resource="mapper/GoodMapper.xml"/>
         <mapper resource="mapper/ComposeGoodMapper.xml"/>
+        <mapper resource="mapper/GeneralitiesMapper.xml"/>
         <!--<package name="mapper"/>-->
     </mappers>
 </configuration>

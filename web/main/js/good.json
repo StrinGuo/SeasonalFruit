@@ -1,227 +1,215 @@
 {
-  "专利分格": [
-    {
-      "classify": [
+  "专利分格": {
+    "classify": {
+      "专利分格": [
         {
-          "专利分格": [
-            {
-              "src": "../../img/goods/1.jpg",
-              "goods_info": "迷你果盒：应季流行",
-              "goods_price": "￥6.00"
-            },
-            {
-              "src": "../../img/goods/2.jpg",
-              "goods_info": "三分果盒：高级赏味",
-              "goods_price": "￥22.00"
-            },
-            {
-              "src": "../../img/goods/3.jpg",
-              "goods_info": "二分果盒：应季流行",
-              "goods_price": "￥9.00"
-            },
-            {
-              "src": "../../img/goods/4.jpg",
-              "goods_info": "三分果盒：特级精选",
-              "goods_price": "￥27.00"
-            },
-            {
-              "src": "../../img/goods/5.jpg",
-              "goods_info": "二分果盒：特别推荐",
-              "goods_price": "￥10.00"
-            },
-            {
-              "src": "../../img/goods/6.jpg",
-              "goods_info": "三分果盒：季节限定",
-              "goods_price": "￥21.00"
-            }
-          ],
-          "超级果盒": [
-            {
-              "src": "../../img/goods/2.jpg",
-              "goods_info": "三分果盒：高级赏味",
-              "goods_price": "￥22.00"
-            },
-            {
-              "src": "../../img/goods/2.jpg",
-              "goods_info": "三分果盒：高级赏味",
-              "goods_price": "￥22.00"
-            },
-            {
-              "src": "../../img/goods/2.jpg",
-              "goods_info": "三分果盒：高级赏味",
-              "goods_price": "￥22.00"
-            },
-            {
-              "src": "../../img/goods/2.jpg",
-              "goods_info": "三分果盒：高级赏味",
-              "goods_price": "￥22.00"
-            },
-            {
-              "src": "../../img/goods/5.jpg",
-              "goods_info": "二分果盒：特别推荐",
-              "goods_price": "￥10.00"
-            },
-            {
-              "src": "../../img/goods/6.jpg",
-              "goods_info": "三分果盒：季节限定",
-              "goods_price": "￥21.00"
-            }
-          ]
+          "src": "../../img/goods/1.jpg",
+          "goods_info": "迷你果盒：应季流行",
+          "goods_price": "￥6.00"
+        },
+        {
+          "src": "../../img/goods/2.jpg",
+          "goods_info": "三分果盒：高级赏味",
+          "goods_price": "￥22.00"
+        },
+        {
+          "src": "../../img/goods/3.jpg",
+          "goods_info": "二分果盒：应季流行",
+          "goods_price": "￥9.00"
+        },
+        {
+          "src": "../../img/goods/4.jpg",
+          "goods_info": "三分果盒：特级精选",
+          "goods_price": "￥27.00"
+        },
+        {
+          "src": "../../img/goods/5.jpg",
+          "goods_info": "二分果盒：特别推荐",
+          "goods_price": "￥10.00"
+        },
+        {
+          "src": "../../img/goods/6.jpg",
+          "goods_info": "三分果盒：季节限定",
+          "goods_price": "￥21.00"
         }
       ],
-      "icon_img": "../../img/icon_goods_1.png",
-      "img": "../../img/recommend_img1.jpg",
-      "name": "专利分格"
-    }
-  ],
-  "精致果盘": [
-    {
-      "classify": [
+      "超级果盒": [
         {
-          "专利分格": [
-            {
-              "src": "../../img/goods/1.jpg",
-              "goods_info": "迷你果盒：应季流行",
-              "goods_price": "￥6.00"
-            },
-            {
-              "src": "../../img/goods/2.jpg",
-              "goods_info": "三分果盒：高级赏味",
-              "goods_price": "￥22.00"
-            },
-            {
-              "src": "../../img/goods/3.jpg",
-              "goods_info": "二分果盒：应季流行",
-              "goods_price": "￥9.00"
-            },
-            {
-              "src": "../../img/goods/4.jpg",
-              "goods_info": "三分果盒：特级精选",
-              "goods_price": "￥27.00"
-            },
-            {
-              "src": "../../img/goods/5.jpg",
-              "goods_info": "二分果盒：特别推荐",
-              "goods_price": "￥10.00"
-            },
-            {
-              "src": "../../img/goods/6.jpg",
-              "goods_info": "三分果盒：季节限定",
-              "goods_price": "￥21.00"
-            }
-          ],
-          "超级果盒": [
-            {
-              "src": "../../img/goods/1.jpg",
-              "goods_info": "迷你果盒：应季流行",
-              "goods_price": "￥6.00"
-            },
-            {
-              "src": "../../img/goods/2.jpg",
-              "goods_info": "三分果盒：高级赏味",
-              "goods_price": "￥22.00"
-            },
-            {
-              "src": "../../img/goods/3.jpg",
-              "goods_info": "二分果盒：应季流行",
-              "goods_price": "￥9.00"
-            },
-            {
-              "src": "../../img/goods/4.jpg",
-              "goods_info": "三分果盒：特级精选",
-              "goods_price": "￥27.00"
-            },
-            {
-              "src": "../../img/goods/5.jpg",
-              "goods_info": "二分果盒：特别推荐",
-              "goods_price": "￥10.00"
-            },
-            {
-              "src": "../../img/goods/6.jpg",
-              "goods_info": "三分果盒：季节限定",
-              "goods_price": "￥21.00"
-            }
-          ]
+          "src": "../../img/goods/2.jpg",
+          "goods_info": "三分果盒：高级赏味",
+          "goods_price": "￥22.00"
+        },
+        {
+          "src": "../../img/goods/2.jpg",
+          "goods_info": "三分果盒：高级赏味",
+          "goods_price": "￥22.00"
+        },
+        {
+          "src": "../../img/goods/2.jpg",
+          "goods_info": "三分果盒：高级赏味",
+          "goods_price": "￥22.00"
+        },
+        {
+          "src": "../../img/goods/2.jpg",
+          "goods_info": "三分果盒：高级赏味",
+          "goods_price": "￥22.00"
+        },
+        {
+          "src": "../../img/goods/5.jpg",
+          "goods_info": "二分果盒：特别推荐",
+          "goods_price": "￥10.00"
+        },
+        {
+          "src": "../../img/goods/6.jpg",
+          "goods_info": "三分果盒：季节限定",
+          "goods_price": "￥21.00"
+        }
+      ]
+    },
+    "icon_img": "../../img/icon_goods_1.png",
+    "img": "../../img/recommend_img1.jpg",
+    "name": "专利分格"
+  },
+  "精致果盘": {
+    "classify": {
+      "专利分格": [
+        {
+          "src": "../../img/goods/1.jpg",
+          "goods_info": "迷你果盒：应季流行",
+          "goods_price": "￥6.00"
+        },
+        {
+          "src": "../../img/goods/2.jpg",
+          "goods_info": "三分果盒：高级赏味",
+          "goods_price": "￥22.00"
+        },
+        {
+          "src": "../../img/goods/3.jpg",
+          "goods_info": "二分果盒：应季流行",
+          "goods_price": "￥9.00"
+        },
+        {
+          "src": "../../img/goods/4.jpg",
+          "goods_info": "三分果盒：特级精选",
+          "goods_price": "￥27.00"
+        },
+        {
+          "src": "../../img/goods/5.jpg",
+          "goods_info": "二分果盒：特别推荐",
+          "goods_price": "￥10.00"
+        },
+        {
+          "src": "../../img/goods/6.jpg",
+          "goods_info": "三分果盒：季节限定",
+          "goods_price": "￥21.00"
         }
       ],
-      "icon_img": "../../img/icon_goods_1.png",
-      "img": "../../img/recommend_img1.jpg",
-      "name": "精致果盘"
-    }
-  ],
-  "超大果盒": [
-    {
-      "classify": [
+      "超级果盒": [
         {
-          "专利分格": [
-            {
-              "src": "../../img/goods/1.jpg",
-              "goods_info": "迷你果盒：应季流行",
-              "goods_price": "￥6.00"
-            },
-            {
-              "src": "../../img/goods/2.jpg",
-              "goods_info": "三分果盒：高级赏味",
-              "goods_price": "￥22.00"
-            },
-            {
-              "src": "../../img/goods/3.jpg",
-              "goods_info": "二分果盒：应季流行",
-              "goods_price": "￥9.00"
-            },
-            {
-              "src": "../../img/goods/4.jpg",
-              "goods_info": "三分果盒：特级精选",
-              "goods_price": "￥27.00"
-            },
-            {
-              "src": "../../img/goods/5.jpg",
-              "goods_info": "二分果盒：特别推荐",
-              "goods_price": "￥10.00"
-            },
-            {
-              "src": "../../img/goods/6.jpg",
-              "goods_info": "三分果盒：季节限定",
-              "goods_price": "￥21.00"
-            }
-          ],
-          "超级果盒": [
-            {
-              "src": "../../img/goods/1.jpg",
-              "goods_info": "迷你果盒：应季流行",
-              "goods_price": "￥6.00"
-            },
-            {
-              "src": "../../img/goods/2.jpg",
-              "goods_info": "三分果盒：高级赏味",
-              "goods_price": "￥22.00"
-            },
-            {
-              "src": "../../img/goods/3.jpg",
-              "goods_info": "二分果盒：应季流行",
-              "goods_price": "￥9.00"
-            },
-            {
-              "src": "../../img/goods/4.jpg",
-              "goods_info": "三分果盒：特级精选",
-              "goods_price": "￥27.00"
-            },
-            {
-              "src": "../../img/goods/5.jpg",
-              "goods_info": "二分果盒：特别推荐",
-              "goods_price": "￥10.00"
-            },
-            {
-              "src": "../../img/goods/6.jpg",
-              "goods_info": "三分果盒：季节限定",
-              "goods_price": "￥21.00"
-            }
-          ]
+          "src": "../../img/goods/1.jpg",
+          "goods_info": "迷你果盒：应季流行",
+          "goods_price": "￥6.00"
+        },
+        {
+          "src": "../../img/goods/2.jpg",
+          "goods_info": "三分果盒：高级赏味",
+          "goods_price": "￥22.00"
+        },
+        {
+          "src": "../../img/goods/3.jpg",
+          "goods_info": "二分果盒：应季流行",
+          "goods_price": "￥9.00"
+        },
+        {
+          "src": "../../img/goods/4.jpg",
+          "goods_info": "三分果盒：特级精选",
+          "goods_price": "￥27.00"
+        },
+        {
+          "src": "../../img/goods/5.jpg",
+          "goods_info": "二分果盒：特别推荐",
+          "goods_price": "￥10.00"
+        },
+        {
+          "src": "../../img/goods/6.jpg",
+          "goods_info": "三分果盒：季节限定",
+          "goods_price": "￥21.00"
+        }
+      ]
+    },
+    "icon_img": "../../img/icon_goods_1.png",
+    "img": "../../img/recommend_img1.jpg",
+    "name": "精致果盘"
+  },
+  "超大果盒": {
+    "classify": {
+      "专利分格": [
+        {
+          "src": "../../img/goods/1.jpg",
+          "goods_info": "迷你果盒：应季流行",
+          "goods_price": "￥6.00"
+        },
+        {
+          "src": "../../img/goods/2.jpg",
+          "goods_info": "三分果盒：高级赏味",
+          "goods_price": "￥22.00"
+        },
+        {
+          "src": "../../img/goods/3.jpg",
+          "goods_info": "二分果盒：应季流行",
+          "goods_price": "￥9.00"
+        },
+        {
+          "src": "../../img/goods/4.jpg",
+          "goods_info": "三分果盒：特级精选",
+          "goods_price": "￥27.00"
+        },
+        {
+          "src": "../../img/goods/5.jpg",
+          "goods_info": "二分果盒：特别推荐",
+          "goods_price": "￥10.00"
+        },
+        {
+          "src": "../../img/goods/6.jpg",
+          "goods_info": "三分果盒：季节限定",
+          "goods_price": "￥21.00"
         }
       ],
-      "icon_img": "../../img/icon_goods_1.png",
-      "img": "../../img/recommend_img1.jpg",
-      "name": "超大果盒"
-    }
-  ]
+      "超级果盒": [
+        {
+          "src": "../../img/goods/1.jpg",
+          "goods_info": "迷你果盒：应季流行",
+          "goods_price": "￥6.00"
+        },
+        {
+          "src": "../../img/goods/2.jpg",
+          "goods_info": "三分果盒：高级赏味",
+          "goods_price": "￥22.00"
+        },
+        {
+          "src": "../../img/goods/3.jpg",
+          "goods_info": "二分果盒：应季流行",
+          "goods_price": "￥9.00"
+        },
+        {
+          "src": "../../img/goods/4.jpg",
+          "goods_info": "三分果盒：特级精选",
+          "goods_price": "￥27.00"
+        },
+        {
+          "src": "../../img/goods/5.jpg",
+          "goods_info": "二分果盒：特别推荐",
+          "goods_price": "￥10.00"
+        },
+        {
+          "src": "../../img/goods/6.jpg",
+          "goods_info": "三分果盒：季节限定",
+          "goods_price": "￥21.00"
+        }
+      ]
+    },
+    "icon_img": "../../img/icon_goods_1.png",
+    "img": "../../img/recommend_img1.jpg",
+    "name": "超大果盒"
+  }
 }

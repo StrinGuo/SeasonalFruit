@@ -9,10 +9,18 @@
 
     <servlet>
         <servlet-name>MainGoodsRefresh</servlet-name>
-        <servlet-class>MainGoodsRefresh</servlet-class>
+        <servlet-class>servlet.MainGoodsRefresh</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>MainGoodsRefresh</servlet-name>
         <url-pattern>/MainGoodsRefresh</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UnitServlet</servlet-name>
+        <servlet-class>lib.UnitServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UnitServlet</servlet-name>
+        <url-pattern>/UnitServlet</url-pattern>
     </servlet-mapping>
 </web-app>

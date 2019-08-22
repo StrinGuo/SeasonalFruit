@@ -42,11 +42,7 @@ $('#main_nav_goods_nav').hover(function () {
 
 });
 
-$("#main_sub_nav").mouseover(function () {
-    $("#main_sub_nav").show();
-}).mouseout(function () {
-    $("#main_sub_nav").hide();
-});
+
 
 $(".goods_show_nav_ul_li").hover(function () {
     $(this).parent().children(".goods_show_nav_ul_li").css("background-color", "white");
